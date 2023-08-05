@@ -56,6 +56,12 @@
     <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/custom.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        activeNav(document.querySelector(".home_button"))
+    </script>
 </body>
 
 </html>

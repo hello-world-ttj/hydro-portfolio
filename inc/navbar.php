@@ -10,11 +10,11 @@
             <!-- Menu -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                    <li class="nav-item"><a class="home_button nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="about_button nav-link" href="about.php">About</a></li>
+                    <li class="nav-item"><a class="service_button nav-link" href="services.php">Services</a></li>
+                    <li class="nav-item"><a class="gallery_button nav-link" href="gallery.php">Gallery</a></li>
+                    <li class="nav-item"><a class="contact_button nav-link" href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
