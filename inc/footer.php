@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-md-4 widget-area">
                         <div class="widget clearfix">
-                            <div class="footer-logo"> <img class="img-fluid" src="img/logo-light.png" alt=""> </div>
+                            <div class="footer-logo"> <img class="img-fluid" src="img/logo.png" alt=""> </div>
                             <div class="widget-text">
                                 <p>Photography inila miss uman saten eliten finus vivera alacus miss the drudean seneice miss notumane tonec a fermen.</p>
                             </div>
