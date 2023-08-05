@@ -6,12 +6,18 @@ require 'vendor/autoload.php';
 
 // Use the AdminApi class for managing assets
 use Cloudinary\Api\Admin\AdminApi;
+use Dotenv\Dotenv;
+
+// Load environment variables from .env file
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 
 // Set your Cloudinary credentials
 \Cloudinary::config(array(
-    "cloud_name" => "your_cloud_name",
-    "api_key" => "your_api_key",
-    "api_secret" => "your_api_secret"
+    "cloud_name" => $_ENV['CLOUDINARY_CLOUD_NAME'],
+    "api_key" => $_ENV['CLOUDINARY_API_KEY'],
+    "api_secret" => $_ENV['CLOUDINARY_API_SECRET']
 ));
 
 // Get the asset details
