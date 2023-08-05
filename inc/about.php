@@ -34,9 +34,28 @@
                 </div>
                 <div class="col-md-5 offset-md-1">
                     <div class="about-img">
-                        <div class="img"> <img src="img/about.jpg" class="img-fluid" alt=""> </div>
+                        <div class="img"> <img id="profile" src="img/about.jpg" class="img-fluid" alt=""> </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+    <script>
+        async function displayProfileImage() {
+        try {
+            const profileData = await fetchData('profile');
+            const profileImgUrl = profileData[0].secure_url;
+            console.log("Profile Image URL:", profileImgUrl);
+            document.querySelector("#profile").src = profileImgUrl;
+        } catch (error) {
+            // Handle any errors that occurred during fetchData or image display
+            console.error('Error:', error);
+        }
+        }
+
+        displayProfileImage()
+
+    </script>

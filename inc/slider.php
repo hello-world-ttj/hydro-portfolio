@@ -3,7 +3,7 @@
         <div class="ruby-container">
             <div class="owl-carousel owl-theme">
                 <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
-                <div class="text-left item bg-img" data-overlay-dark="2" data-background="img/slider/1.jpg">
+                <div class="text-left item bg-img banner_img_home_1" data-overlay-dark="2" data-background="img/slider/1.jpg">
                     <div class="v-middle caption">
                         <div class="container">
                             <div class="row">
@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-left item bg-img" data-overlay-dark="2" data-background="img/slider/2.jpg">
+                <div class="text-left item bg-img banner_img_home_2" data-overlay-dark="2" data-background="img/slider/2.jpg">
                     <div class="v-middle caption">
                         <div class="container">
                             <div class="row">
@@ -28,7 +28,36 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </header>
+
+
+    <script src="js/index.js"></script>
+
+    <script>
+    async function displayBannerImage() {
+        try {
+        const profileData = await fetchData('banner');
+
+
+        document.querySelectorAll(".banner_img_home_1").forEach(element => {
+            element.setAttribute("data-background", profileData[0].secure_url);
+            console.log(element)
+            element.style.background = `url("${profileData[0].secure_url}")`;
+        });
+        document.querySelectorAll(".banner_img_home_2").forEach(element => {
+            console.log(element)
+            element.setAttribute("data-background", profileData[1].secure_url);
+            element.style.background = `url("${profileData[1].secure_url}")`;
+        });
+
+
+        } catch (error) {
+        // Handle any errors that occurred during fetchData or image display
+        console.error('Error:', error);
+        }
+    }
+    displayBannerImage();
+    </script>
