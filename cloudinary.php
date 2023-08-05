@@ -22,7 +22,7 @@ $dotenv->load();
 
 // Get the asset details
 $admin = new AdminApi();
-$assetName = 'flower_sample'; // Replace with the name of the asset you want to retrieve details for
+$assetName = 'profile'; // Replace with the name of the asset you want to retrieve details for
 
 try {
     $assetDetails = $admin->asset($assetName, ['colors' => true]);
