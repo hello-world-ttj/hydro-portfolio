@@ -48,34 +48,9 @@
     <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/custom.js"></script>
-
     <script src="js/script.js"></script>
-
     <script>
         activeNav(document.querySelector(".home_button"))
-    </script>
-
-    <script>
-        console.log("Hello World!");
-        // Fetch asset details from cloudinary.php
-        fetch('cloudinary.php')
-            .then(response => response.json())
-            .then(data => {
-                // Process the asset details here
-                // For example, you can access data.resources and use them in your HTML
-                // const imageContainer = document.getElementById('image-container');
-                // data.resources.forEach(resource => {
-                //     const image = document.createElement('img');
-                //     image.src = resource.secure_url;
-                //     image.alt = resource.public_id;
-                //     imageContainer.appendChild(image);
-                // });
-
-                console.log(data)
-            })
-            .catch(error => {
-                console.error('Error fetching asset details:', error);
-            });
     </script>
 </body>
 
