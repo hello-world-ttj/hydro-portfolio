@@ -17,7 +17,7 @@
     <?php include './inc/about.php' ?>
     
     <!-- Services section -->
-    <?php include './inc/services.php' ?>
+    <?php include './inc/service.php' ?>
 
     <!-- News section -->
     <?php include './inc/news.php' ?>

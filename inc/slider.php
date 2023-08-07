@@ -10,7 +10,7 @@
                                 <div class="col-md-6">
                                     <h4>Welcome to my</h4>
                                     <h1>Hydro photography</h1>
-                                    <p>I love to pause the wild, happy and real moments of life, just to hear their stories untold.</p> <a href="#" class="button-primary">My works</a> <a href="#" class="button-tersiyer">Contact me</a>
+                                    <p>HYDRO PHOTOGRAPHY is a off camera flash portrait photography</p> <a href="#" class="button-primary">My works</a> <a href="#" class="button-tersiyer">Contact me</a>
                                 </div>
                             </div>
                         </div>
