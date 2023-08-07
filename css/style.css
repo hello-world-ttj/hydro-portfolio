@@ -942,8 +942,8 @@ hr.border-2 {
   left: 0;
   height: 100%;
   width: 100%;
-  background-size: cover;
-  background-position: center;
+  background-size: cover !important;
+  background-position: center !important;
 }
 .slider .item .caption,
 .slider-fade .item .caption {
