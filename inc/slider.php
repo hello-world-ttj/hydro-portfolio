@@ -23,7 +23,7 @@
                                 <div class="col-md-6">
                                     <h4>Hello there !</h4>
                                     <h1>I'm Muhammed Rizwan</h1>
-                                    <p>I am professional photographer based on New York, creating dreamscapes with black, white and shades in-between.</p> <a href="#" class="button-primary">My works</a> <a href="#" class="button-tersiyer">Contact me</a>
+                                    <p>I am professional photographer based on Kochi, creating dreamscapes with black, white and shades in-between.</p> <a href="#" class="button-primary">My works</a> <a href="#" class="button-tersiyer">Contact me</a>
                                 </div>
                             </div>
                         </div>

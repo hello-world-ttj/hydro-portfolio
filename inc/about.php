@@ -2,19 +2,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mb-30">
-                    <h2 class="section-title">Hello, I'm Muhammed Rizwan, a professional photographer based on New York</h2>
-                    <p>I love to pause the wild, happy and real moments of life, just to hear their stories untold. Viverra tristique usto duis vitae diam neque nivamus estan ateuene artines viverra nec setlie no curabit tristique.</p>
+                    <h2 class="section-title">Hello, I am a fashion photographer with over five years of experience in the photography industry.</h2>
+                    <p>I specialize in off-camera flash photography and have captured shots for digital media. My skills include portrait illustration, styling direction, retouching, and video production</p>
                     <ul class="list-unstyled about-list mb-30">
                         <li>
                             <div class="about-list-icon"> <span class="ti-check"></span> </div>
                             <div class="about-list-text">
-                                <p>Over 15 years of experience</p>
+                                <p>Over 5 years of experience</p>
                             </div>
                         </li>
                         <li>
                             <div class="about-list-icon"> <span class="ti-check"></span> </div>
                             <div class="about-list-text">
-                                <p>200+ successfully executed projects</p>
+                                <p>50+ successfully executed projects</p>
                             </div>
                         </li>
                         <li>
@@ -27,8 +27,8 @@
                     <hr class="border-2">
                     <div class="about-bottom"> <img src="img/signature-dark.svg" alt="" class="image about-signature">
                         <div class="about-name-wrapper">
-                            <div class="about-name-dark">Martin Dan</div>
-                            <div class="about-rol">Founder of Photography</div>
+                            <div class="about-name-dark">Muhammed Rizwan</div>
+                            <div class="about-rol">Hydro Photography</div>
                         </div>
                     </div>
                 </div>
