@@ -17,7 +17,7 @@
                 <div class="col-md-5">
                     <h1>About me</h1>
                     <hr class="border-1">
-                    <p>I am professional photographer based on New York, creating dreamscapes with black, white and shades in-between.</p>
+                    <p>I am professional photographer based on Kochi, creating dreamscapes with black, white and shades in-between.</p>
                 </div>
             </div>
         </div>
@@ -27,19 +27,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5 mb-30 animate-box" data-animate-effect="fadeInUp">
-                    <p>Quisque sed tellus lorem. Nullam bibena tortor seman marine porta felis the porta dignissim pretium.</p>
-                    <p class="mb-30">Vivamus tortor risus, pharetra ut venenatis ac, rutrum eget ante. Fusce convallis nibh felis, eget hendrerit diam rhoncus eget. Donec dictum lacus eleifend nisl efficitur venenatis.</p>
+                    <p>I am a fashion photographer with over five years of experience in the photography industry. I specialize in off-camera flash photography and have captured shots for digital media. </p>
+                    <p class="mb-30">My skills include portrait illustration, styling direction, retouching, and video production. My journey began while working as an assistant light boy at wedding photo shoots, where I discovered my passion for capturing beautiful stories through images shaped by light that evoke powerful emotions.</p>
                     <ul class="list-unstyled about-list mb-30">
                         <li>
                             <div class="about-list-icon"> <span class="ti-check"></span> </div>
                             <div class="about-list-text">
-                                <p>Over 15 years of experience</p>
+                                <p>Over 5 years of experience</p>
                             </div>
                         </li>
                         <li>
                             <div class="about-list-icon"> <span class="ti-check"></span> </div>
                             <div class="about-list-text">
-                                <p>200+ successfully executed projects</p>
+                                <p>50+ successfully executed projects</p>
                             </div>
                         </li>
                         <li>
@@ -50,10 +50,10 @@
                         </li>
                     </ul>
                     <hr class="border-2">
-                    <div class="about-bottom"> <img src="img/signature-dark.svg" alt="" class="image about-signature">
+                    <div class="about-bottom"> <img src="img/sign.png" alt="" class="image about-signature">
                         <div class="about-name-wrapper">
-                            <div class="about-name">Martin Dan</div>
-                            <div class="about-rol">Founder of Photography</div>
+                            <div class="about-name">Muhammed Rizwan</div>
+                            <div class="about-rol">Hydro Photography</div>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@
                 <div class="col-md-5">
                     <h1>Gallery 01</h1>
                     <hr class="border-1">
-                    <p>Fusceler mollis augue sit amet hendrerit vestibulum uisteyer the miss martine venenatis nito lacus.</p>
+                    <p>Welcome to our Photography Gallery, a visual journey capturing moments, stories, and emotions through the lens of our talented photographer. Each image here has been carefully curated to showcase the beauty and artistry that photography brings to life.</p>
                 </div>
             </div>
         </div>
@@ -149,6 +149,10 @@
             </div>
         </div>   
     </section>
+
+    
+    <!-- Testimonials -->
+    <?php include './inc/testimonials.php' ?>
     <!-- Footer -->
     <?php include './inc/footer.php' ?>
 

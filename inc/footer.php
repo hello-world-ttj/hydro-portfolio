@@ -23,7 +23,7 @@
                         <div class="widget clearfix">
                             <div class="footer-logo"> <img class="img-fluid" src="img/logo.png" alt=""> </div>
                             <div class="widget-text">
-                                <p>Photography inila miss uman saten eliten finus vivera alacus miss the drudean seneice miss notumane tonec a fermen.</p>
+                                <p>Hydro Photography is a off camera flash portrait photography. </p>
                             </div>
                         </div>
                     </div>
@@ -31,10 +31,10 @@
                         <div class="widget clearfix usful-links">
                             <h3 class="widget-title">Quick Links</h3>
                             <ul>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="works.html">Works</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">Home</a></li>
+                                <li><a href="services.html">About</a></li>
+                                <li><a href="works.html">Services</a></li>
+                                <li><a href="blog.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <p>+1 123-456-0606</p>
+                                        <p>+91 99612 04347</p>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <p>info@phoxel.com</p>
+                                        <p>hydrophotography@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <p>120 King St, Charleston SC 29401, USA</p>
+                                        <p>CUSAT, My Tournament</p>
                                     </div>
                                 </div>
                             </div>

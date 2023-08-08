@@ -17,7 +17,7 @@
                 <div class="col-md-5 text-left caption">
                     <h1>Contact</h1>
                     <hr class="border-1">
-                    <p>Praesent sed nisl ullamcorper metus utah phare mavna busnini viventa the ornare ipsum.</p>
+                    <p>Feel free to reach out to us through the provided contact information below or by filling out the contact form.</p>
                 </div>
             </div>
         </div>
@@ -28,26 +28,26 @@
             <div class="row mb-120">
                 <div class="col-md-5 mb-60 animate-box" data-animate-effect="fadeInUp">
                     <h5>Information</h5>
-                    <p class="mb-30">Praesent sed nisl ullamcorper the drana duru metus utah phare mavna busnini viventa the ornare ipsum.</p>
+                    <p class="mb-30">Feel free to reach out using any of the contact methods provided below. Our team of passionate photographers is dedicated to ensuring that your experience with us is enjoyable and tailored to your needs.</p>
                     <div class="contact-link">
                         <div class="contact-link-icon"><img src="img/icons/c1.svg" alt=""></div>
                         <div class="contact-link-content">
                             <div class="contact-link-title">Call us</div>
-                            <div class="contact-link-text">+1 203-123-0606</div>
+                            <div class="contact-link-text">+91 99612 04347</div>
                         </div>
                     </div>
                     <div class="contact-link">
                         <div class="contact-link-icon"><img src="img/icons/c2.svg" alt=""></div>
                         <div class="contact-link-content">
                             <div class="contact-link-title">Send us an email</div>
-                            <div class="contact-link-text">info@phoxel.com</div>
+                            <div class="contact-link-text">hydrophotography@gmail.com</div>
                         </div>
                     </div>
                     <div class="contact-link">
                         <div class="contact-link-icon"><img src="img/icons/c3.svg" alt=""></div>
                         <div class="contact-link-content">
                             <div class="contact-link-title">Visit our office</div>
-                            <div class="contact-link-text">24 King St, Charleston, 29401 USA</div>
+                            <div class="contact-link-text">CUSAT, My Tournament</div>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
             <div class="row">
                 <div class="col-md-12 text-center mb-20">
                     <h2 class="section-title">Frequently Asked Questions</h2>
-                    <p class="section-title2">Quisque sed tellus nullam biben the volutpat dignissim pretium.</p>
+                    <p class="section-title2">Quickly find answers to common photography questions in our concise and helpful FAQ section.</p>
                 </div>
             </div>
             <div class="row">
@@ -141,77 +141,14 @@
             </div>
         </div>
     </section>
-    <!-- Testiominals -->
-    <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/banner/2.jpg" data-overlay-dark="3">
-            <div class="container">
-                <div class="row">
-                    <!-- Work together -->
-                    <div class="col-md-6 mb-30">
-                        <h5>Need help with professional photography? Let's work together!</h5> <a href="contact.html" class="button-tersiyer">Contact me</a>
-                    </div>
-                    <!-- Testiominals -->
-                    <div class="col-md-5 offset-md-1">
-                        <div class="testimonials-box">
-                            <div class="owl-carousel owl-theme">
-                                <div class="item"> <span class="quote"><img src="img/quot.png" alt=""></span>
-                                    <p class="v-border">Photographers viverra tristique duis vitae dias the nesue niva aestan ateuene artines duruna setlie suscipe fermen. Quisque sed tellus man lorem nullam dururana tortor felis porta.</p>
-                                    <div class="info">
-                                        <div class="author-img"> <img src="img/team/1.jpg" alt=""> </div>
-                                        <div class="cont">
-                                            <h6>Jason Brown</h6> <span>Project Owner</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item"> <span class="quote">
-                                        <img src="img/quot.png" alt="">
-                                    </span>
-                                    <p class="v-border">Photographers viverra tristique duis vitae dias the nesue niva aestan ateuene artines duruna setlie suscipe fermen. Quisque sed tellus man lorem nullam dururana tortor felis porta.</p>
-                                    <div class="info">
-                                        <div class="author-img"> <img src="img/team/2.jpg" alt=""> </div>
-                                        <div class="cont">
-                                            <h6>Emily White</h6> <span>Project Owner</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients -->
-    <section class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="owl-carousel owl-theme">
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/1.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/2.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/3.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/4.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/5.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/6.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
+
+    <!-- Testimonial -->
+    <?php include './inc/testimonials.php' ?>
+    
     <!-- Footer -->
     <?php include './inc/footer.php' ?>
+    
 
     <!-- jQuery -->
     <script src="js/jquery-3.6.3.min.js"></script>
