@@ -25,7 +25,7 @@
                         </li>
                     </ul>
                     <hr class="border-2">
-                    <div class="about-bottom"> <img src="img/signature-dark.svg" alt="" class="image about-signature">
+                    <div class="about-bottom"> <img src="img/sign.png" alt="" class="image about-signature">
                         <div class="about-name-wrapper">
                             <div class="about-name-dark">Muhammed Rizwan</div>
                             <div class="about-rol">Hydro Photography</div>
