@@ -47,7 +47,7 @@
                         <div class="contact-link-icon"><img src="img/icons/c3.svg" alt=""></div>
                         <div class="contact-link-content">
                             <div class="contact-link-title">Visit our office</div>
-                            <div class="contact-link-text">CUSAT, My Tournament</div>
+                            <div class="contact-link-text">CUSAT, Ernakulam</div>
                         </div>
                     </div>
                 </div>
@@ -106,34 +106,50 @@
                     <div class="accordion">
                         <div class="item">
                             <div class="title">
-                                <h6>Are you open for new projects or commissions?</h6>
+                                <h6>What types of photography do you specialize in?</h6>
                             </div>
                             <div class="accordion-info">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum nulla.</p>
+                                <p>I specialize in portrait, wedding, event, and landscape photography, capturing moments with a unique perspective.</p>
                             </div>
                         </div>
                         <div class="item">
                             <div class="title">
-                                <h6>Do you offer photography work abroad?</h6>
+                                <h6>How do I book a photography session?</h6>
                             </div>
                             <div class="accordion-info">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum nulla.</p>
+                                <p>Booking is easy! Simply visit the Contact page on my website and There will be my phone number to contact</p>
                             </div>
                         </div>
                         <div class="item">
                             <div class="title">
-                                <h6>Where are you currently located?</h6>
+                                <h6>What should I wear for a photoshoot?</h6>
                             </div>
                             <div class="accordion-info">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum nulla.</p>
+                                <p>Wearing solid colors and avoiding busy patterns can make you stand out in photos. We can discuss specifics before the session.</p>
                             </div>
                         </div>
                         <div class="item">
                             <div class="title">
-                                <h6>Are you open for freelance/contract work?</h6>
+                                <h6>Can I request specific poses or styles for my session?</h6>
                             </div>
                             <div class="accordion-info">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum nulla.</p>
+                                <p>Absolutely! I encourage your input to ensure your vision is realized in the final images.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6> Can I bring props or pets to the photoshoot?</h6>
+                            </div>
+                            <div class="accordion-info">
+                                <p>Certainly! Props and pets can add a personal touch to your photos. Let's discuss ideas beforehand.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6>Can you provide references from past clients?</h6>
+                            </div>
+                            <div class="accordion-info">
+                                <p>Absolutely, I'm happy to provide references or showcase testimonials on my website. And you can also View the photos from gallery page of the website</p>
                             </div>
                         </div>
                     </div>

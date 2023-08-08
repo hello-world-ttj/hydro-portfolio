@@ -75,12 +75,12 @@
                             <div class="img"> <img src="img/about2.jpg" class="img-fluid" alt=""> </div>
                         </div>
                         <h2 class="section-title">My only mission: Capture captivating moments</h2>
-                        <p>Nulla quis efficitur lacus, pulvinar posuere augue. Duis eu vestibulum arcuman. Mauris luctus nulla a scelerisque ultricies. Integer leo nisl, auctor ac aliquamen the placerat quis risus. Maecenas vitae tellus massa.</p>
+                        <p>As an artist, I have always been inspired by interesting portrait drawings with striking shades, which influence how I shoot today. Regardless of whether it's ethereal studio-based portraiture or high-energy on-location work, this style runs through everything I do, giving either result added visual appeal and personality.</p>
                     </div>
                     <div class="col-md-6 offset-md-1 pt-60">
                         <h2 class="section-title">Why I started as a photographer</h2>
-                        <p>Nulla quis efficitur lacus, pulvinar posuere augue. Duis eu vestibulum arcuman. Mauris luctus nulla a scelerisque ultricies. Integer leo nisl, auctor ac aliquamen the placerat quis risus. Maecenas vitae tellus massa. Phasellus faucibus leo in finibus pharetra. Suspendisse est diam, convallis vitae arcuma euismo.</p>
-                        <p>Integer leo nisl, auctor ac aliquam a, placerat quis risus. Maecenas vitae tellus massa. Phasellus faucibus leo in finibus pharetra. Suspendisse est diam, convallis vitae arcu at, euismod pulvinar purus.</p>
+                        <p>My journey began while working as an assistant light boy at wedding photo shoots, where I discovered my passion for capturing beautiful stories through images shaped by light that evoke powerful emotions. Since then, I've established myself as a professional photographic artist who creates stunning visuals with predefined ideas or spontaneously from individual emotion sets within each frame.</p>
+                        <p>dramatic shadows, capturing them as they really are without any artifice or exaggeration. This is evident throughout all of my work, which demonstrates not only impeccable technical skill but also a unique artistic sensibility that sets it apart.</p>
                         <div class="about-info-img pt-60">
                             <div class="img"> <img src="img/about3.jpg" class="img-fluid" alt=""> </div>
                         </div>
@@ -96,7 +96,7 @@
                 <div class="col-md-5 mb-20">
                     <h2 class="section-title"><span>Professional Team</span></h2>
                     <hr class="border-2">
-                    <p class="section-title2">Quisque sed tellus nullam biben the volutpat dignissim pretium.</p>
+                    <p class="section-title2">Expert individuals collaborating seamlessly, leveraging skills to achieve collective excellence, delivering exceptional results together.</p>
                 </div>
             </div>
             <div class="row">
