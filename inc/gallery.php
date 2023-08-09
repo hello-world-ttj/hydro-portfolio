@@ -10,11 +10,11 @@
                 <div class="col-md-12 text-left">
                     <ul class="gallery-filter">
                         <li class="active" data-filter="*">All</li>
-                        <li data-filter=".personal">Personal</li>
-                        <li data-filter=".wedding">Wedding</li>
-                        <li data-filter=".event">Event</li>
-                        <li data-filter=".fashion">Fashion</li>
-                        <li data-filter=".product">Product</li>
+                        <li data-filter=".indoor">Indoor</li>
+                        <li data-filter=".outdoor">Outdoor</li>
+                        <li data-filter=".beauty">Beauty</li>
+                        <li data-filter=".glamour">Glamour</li>
+                        <li data-filter=".editorial">Editorial</li>
                     </ul>
                 </div>
             </div>

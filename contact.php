@@ -11,7 +11,7 @@
     <?php include 'inc/navbar.php' ?>
     
     <!-- Header Banner -->
-    <section class="banner-header banner-img-top section-padding valign bg-img bg-fixed" data-overlay-darkgray="2" data-background="img/banner/6.jpg">
+    <section id="contact_banner" class="banner-header banner-img-top section-padding valign bg-img bg-fixed" data-overlay-darkgray="2" data-background="img/banner/6.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 text-left caption">
@@ -183,9 +183,43 @@
     <script src="js/custom.js"></script>
 
     <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
 
     <script>
         activeNav(document.querySelector(".contact_button"))
+
+
+        async function displayBannerImage() {
+            try {
+                const profileData = await fetchData('bgup');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#contact_banner").setAttribute('data-background', profileImgUrl);
+                document.querySelector("#contact_banner").style.backgroundImage = `url(${profileImgUrl})`;
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayBannerImage()
+
+
+
+        async function displayBannerImageBottom() {
+            try {
+                const profileData = await fetchData('bgdown');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#bottom_banner").setAttribute('data-background', profileImgUrl);
+                document.querySelector("#bottom_banner").style.backgroundImage = `url(${profileImgUrl})`;
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayBannerImageBottom()
     </script>
 </body>
 

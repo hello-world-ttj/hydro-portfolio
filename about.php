@@ -11,7 +11,7 @@
     <?php include 'inc/navbar.php' ?>
     
     <!-- Header Banner -->
-    <section class="banner-header banner-img-top section-padding valign bg-img bg-fixed" data-overlay-darkgray="2" data-background="img/banner/1.jpg">
+    <section id="about_banner" class="banner-header banner-img-top section-padding valign bg-img bg-fixed" data-overlay-darkgray="2" data-background="img/banner/1.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-md-5 offset-md-2 animate-box" data-animate-effect="fadeInUp">
                     <div class="about-img">
-                        <div class="img"> <img src="img/about.jpg" class="img-fluid" alt=""> </div>
+                        <div class="img"> <img id="about_page_profile" src="img/about.jpg" class="img-fluid" alt=""> </div>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="about-info-img mb-60">
-                            <div class="img"> <img src="img/about2.jpg" class="img-fluid" alt=""> </div>
+                            <div class="img"> <img id="about_two" src="img/about2.jpg" class="img-fluid" alt=""> </div>
                         </div>
                         <h2 class="section-title">My only mission: Capture captivating moments</h2>
                         <p>As an artist, I have always been inspired by interesting portrait drawings with striking shades, which influence how I shoot today. Regardless of whether it's ethereal studio-based portraiture or high-energy on-location work, this style runs through everything I do, giving either result added visual appeal and personality.</p>
@@ -82,7 +82,7 @@
                         <p>My journey began while working as an assistant light boy at wedding photo shoots, where I discovered my passion for capturing beautiful stories through images shaped by light that evoke powerful emotions. Since then, I've established myself as a professional photographic artist who creates stunning visuals with predefined ideas or spontaneously from individual emotion sets within each frame.</p>
                         <p>dramatic shadows, capturing them as they really are without any artifice or exaggeration. This is evident throughout all of my work, which demonstrates not only impeccable technical skill but also a unique artistic sensibility that sets it apart.</p>
                         <div class="about-info-img pt-60">
-                            <div class="img"> <img src="img/about3.jpg" class="img-fluid" alt=""> </div>
+                            <div class="img"> <img id="about_three" src="img/about3.jpg" class="img-fluid" alt=""> </div>
                         </div>
                     </div>
                 </div>
@@ -104,12 +104,12 @@
                     <div class="team-card mb-30">
                         <div class="team-img"><img src="img/team/3.jpg" alt="" class="w-100"></div>
                         <div class="team-content">
-                            <h3 class="team-title">Enrico Brown</h3>
-                            <p class="team-text">I'm a professional product photographer in New York, NY. Quisque sed tellus nullam biben the volutan vetium.</p>
-                            <a href="team-details.html" class="button-tersiyer">About me</a>
+                            <h3 class="team-title">Adil Shabab</h3>
+                            <p class="team-text">I'm a professional web developer with one year of experience</p>
+                            <a href="" class="button-tersiyer">About me</a>
                         </div>
                         <div class="title-box">
-                            <h3 class="mb-0">Enrico Brown</h3>
+                            <h3 class="mb-0">Adil Shabab</h3>
                         </div>
                     </div>
                 </div>
@@ -117,12 +117,12 @@
                     <div class="team-card mb-30">
                         <div class="team-img"><img src="img/team/2.jpg" alt="" class="w-100"></div>
                         <div class="team-content">
-                            <h3 class="team-title">Olivia White</h3>
-                            <p class="team-text">I'm a professional fashion photographer in Bern, Switzerland. Quisque sed tellus nullam biben the volutan vetium.</p>
-                            <a href="team-details.html" class="button-tersiyer">About me</a>
+                            <h3 class="team-title">Tijo T Joseph</h3>
+                            <p class="team-text">I'm a professional full stack developer with one year of experience</p>
+                            <a href="" class="button-tersiyer">About me</a>
                         </div>
                         <div class="title-box">
-                            <h3 class="mb-0">Olivia White</h3>
+                            <h3 class="mb-0">Tijo T Joseph</h3>
                         </div>
                     </div>
                 </div>
@@ -130,87 +130,25 @@
                     <div class="team-card mb-30">
                         <div class="team-img"><img src="img/team/1.jpg" alt="" class="w-100"></div>
                         <div class="team-content">
-                            <h3 class="team-title">Micheal Martin</h3>
-                            <p class="team-text">I'm a professional bride photographer in London, UK. Quisque sed tellus nullam biben the volutan vetium.</p>
-                            <a href="team-details.html" class="button-tersiyer">About me</a>
+                            <h3 class="team-title">Anjana Sampath</h3>
+                            <p class="team-text">I'm a professional makeup artist, both wedding and fashion</p>
+                            <a target="_blank" href="https://www.instagram.com/makeupby_anjanasampath/?igshid=MzRlODBiNWFlZA%3D%3D" class="button-tersiyer">About me</a>
                         </div>
                         <div class="title-box">
-                            <h3 class="mb-0">Micheal Martin</h3>
+                            <h3 class="mb-0">Anjana Sampath</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Testiominals -->
-    <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/banner/5.jpg" data-overlay-dark="3">
-            <div class="container">
-                <div class="row">
-                    <!-- Work together -->
-                    <div class="col-md-6 mb-30">
-                        <h5>Need help with professional photography? Let's work together!</h5> <a href="contact.html" class="button-tersiyer">Contact me</a>
-                    </div>
-                    <!-- Testiominals -->
-                    <div class="col-md-5 offset-md-1">
-                        <div class="testimonials-box">
-                            <div class="owl-carousel owl-theme">
-                                <div class="item"> <span class="quote"><img src="img/quot.png" alt=""></span>
-                                    <p class="v-border">Photographers viverra tristique duis vitae dias the nesue niva aestan ateuene artines duruna setlie suscipe fermen. Quisque sed tellus man lorem nullam dururana tortor felis porta.</p>
-                                    <div class="info">
-                                        <div class="author-img"> <img src="img/team/1.jpg" alt=""> </div>
-                                        <div class="cont">
-                                            <h6>Jason Brown</h6> <span>Project Owner</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item"> <span class="quote">
-                                        <img src="img/quot.png" alt="">
-                                    </span>
-                                    <p class="v-border">Photographers viverra tristique duis vitae dias the nesue niva aestan ateuene artines duruna setlie suscipe fermen. Quisque sed tellus man lorem nullam dururana tortor felis porta.</p>
-                                    <div class="info">
-                                        <div class="author-img"> <img src="img/team/2.jpg" alt=""> </div>
-                                        <div class="cont">
-                                            <h6>Emily White</h6> <span>Project Owner</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients -->
-    <section class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="owl-carousel owl-theme">
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/1.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/2.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/3.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/4.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/5.png" alt=""></a>
-                        </div>
-                        <div class="clients-logo">
-                            <a href="#0"><img src="img/clients/6.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+
+    
+    <!-- Testimonial -->
+    <?php include './inc/testimonials.php' ?>
+
+    
     <!-- Footer -->
     <?php include './inc/footer.php' ?>
 
@@ -231,9 +169,86 @@
     <script src="js/custom.js"></script>
 
     <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
 
     <script>
         activeNav(document.querySelector(".about_button"))
+
+        
+        async function displayBannerImage() {
+            try {
+                const profileData = await fetchData('bgup');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#about_banner").setAttribute('data-background', profileImgUrl);
+                document.querySelector("#about_banner").style.backgroundImage = `url(${profileImgUrl})`;
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayBannerImage()
+ 
+        
+
+        async function displayAboutImageOne() {
+            try {
+                const profileData = await fetchData('about1');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#about_two").src = profileImgUrl;
+
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        async function displayAboutImageTwo() {
+            try {
+                const profileData = await fetchData('about2');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#about_three").src = profileImgUrl;
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayAboutImageOne()
+        displayAboutImageTwo()
+
+
+        async function displayProfileImage() {
+            try {
+                const profileData = await fetchData('profile');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#about_page_profile").src = profileImgUrl;
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+
+        displayProfileImage()
+
+        async function displayBannerImageBottom() {
+            try {
+                const profileData = await fetchData('bgdown');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#bottom_banner").setAttribute('data-background', profileImgUrl);
+                document.querySelector("#bottom_banner").style.backgroundImage = `url(${profileImgUrl})`;
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayBannerImageBottom()
+
     </script>
 </body>
 

@@ -37,67 +37,8 @@
                     <p class="section-title2">Quisque sed tellus nullam biben the volutpat dignissim pretium.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="price-box animate-box" data-animate-effect="fadeInUp">
-                        <div class="price-box-inner img-grayscale" style="background-image: url(img/pricing/1.jpg)">
-                            <ul>
-                                <li class="pricing-title">
-                                    <h3 class="pricing-pt-title">Standart</h3>
-                                </li>
-                                <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">300</span> </li>
-                                <li class="pricing-content">
-                                    <ul>
-                                        <li>3 Hours Session</li>
-                                        <li>Photo Editing</li>
-                                        <li>50 Digital Images</li>
-                                        <li>Online Gallery</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="price-box animate-box" data-animate-effect="fadeInUp">
-                        <div class="price-box-inner" style="background-image: url(img/pricing/2.jpg)">
-                            <ul>
-                                <li class="pricing-title">
-                                    <h3 class="pricing-pt-title">Premium</h3>
-                                </li>
-                                <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">450</span> </li>
-                                <li class="pricing-content">
-                                    <ul>
-                                        <li>6 Hours Session</li>
-                                        <li>Photo Editing</li>
-                                        <li>100 Digital Images</li>
-                                        <li>Online Gallery</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="price-box animate-box" data-animate-effect="fadeInUp">
-                        <div class="price-box-inner" style="background-image: url(img/pricing/3.jpg)">
-                            <ul>
-                                <li class="pricing-title">
-                                    <h3 class="pricing-pt-title">Platinum</h3>
-                                </li>
-                                <li class="pricing-prices"> <sup class="pricing-dolar">$</sup> <span class="pricing-price">750</span> </li>
-                                <li class="pricing-content">
-                                    <ul>
-                                        <li>12 Hours Session</li>
-                                        <li>Photo Editing</li>
-                                        <li>250 Digital Images</li>
-                                        <li>Online Gallery</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div id="offer_soon" class="row">
+
             </div>
         </div>
     </section>
@@ -123,9 +64,59 @@
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
 
     <script>
         activeNav(document.querySelector(".service_button"))
+
+
+        async function displayBannerImageBottom() {
+            try {
+                const profileData = await fetchData('bgdown');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#bottom_banner").setAttribute('data-background', profileImgUrl);
+                document.querySelector("#bottom_banner").style.backgroundImage = `url(${profileImgUrl})`;
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayBannerImageBottom()
+       
+
+
+        async function displayPlanImage() {
+            try {
+                const profileData = await fetchData('offersoon');
+                const offer_div = document.getElementById("offer_soon");
+
+                // Sort profileData based on the created_at property in descending order
+                profileData.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+                let new_html = ''; // Initialize the HTML content variable
+
+                profileData.forEach(element => {
+                    new_html += `
+                    <div class="col-md-4">
+                        <img src='${element.secure_url}' alt="">
+                    </div>`;
+                });
+
+                offer_div.innerHTML = new_html; // Set the HTML content
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayPlanImage();
+
+
+
+
     </script>
 </body>
 

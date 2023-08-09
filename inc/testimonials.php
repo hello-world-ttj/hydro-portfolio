@@ -1,6 +1,6 @@
  <!-- Testiominals -->
     <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/banner/5.jpg" data-overlay-dark="3">
+        <div id="bottom_banner" class="background bg-img bg-fixed section-padding pb-0" data-background="img/banner/5.jpg" data-overlay-dark="3">
             <div class="container pb-5">
                 <div class="row">
                     <!-- Work together -->

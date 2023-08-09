@@ -29,123 +29,16 @@
                 <div class="col-md-12 text-center">
                     <ul class="gallery-filter">
                         <li class="active" data-filter="*">All</li>
-                        <li data-filter=".personal">Personal</li>
-                        <li data-filter=".wedding">Wedding</li>
-                        <li data-filter=".event">Event</li>
-                        <li data-filter=".fashion">Fashion</li>
-                        <li data-filter=".product">Product</li>
+                        <li data-filter=".indoor">Indoor</li>
+                        <li data-filter=".outdoor">Outdoor</li>
+                        <li data-filter=".beauty">Beauty</li>
+                        <li data-filter=".glamour">Galamour</li>
+                        <li data-filter=".editorial">Editorial</li>
                     </ul>
                 </div>
             </div>
-            <div class="row gallery-items">
-                    <div class="col-md-4 gallery-masonry-wrapper single-item wedding">
-                        <a href="img/works/w2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/w2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Wedding</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-masonry-wrapper single-item personal">
-                        <a href="img/works/p1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/p1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Personal</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-masonry-wrapper single-item event">
-                        <a href="img/works/e1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/e1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Event</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-masonry-wrapper single-item personal">
-                        <a href="img/works/p2.jpg" title="Personal" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/p2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Personal</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-masonry-wrapper single-item event">
-                        <a href="img/works/e2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/e2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Event</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-masonry-wrapper single-item wedding">
-                        <a href="img/works/w1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/w1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Wedding</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-masonry-wrapper single-item fashion">
-                        <a href="img/works/f1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/f1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Fashion</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-masonry-wrapper single-item product">
-                        <a href="img/works/p3.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/p3.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Product</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 gallery-masonry-wrapper single-item fashion">
-                        <a href="img/works/f2.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
-                            <div class="gallery-box">
-                                <div class="gallery-img"> <img src="img/works/f2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
-                                <div class="gallery-masonry-item-img"></div>
-                                <div class="gallery-masonry-item-content">
-                                    <div class="gallery-masonry-item-category">Fashion</div>
-                                    <h4 class="gallery-masonry-item-title">Quisue sen duru martin</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+            <div id="gallery_parent" class="row gallery-items">
+                    
             </div>
         </div>   
     </section>
@@ -157,7 +50,240 @@
     <?php include './inc/footer.php' ?>
 
     <!-- jQuery -->
-    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/index.js"></script>
+
+    
+    <script src="js/script.js"></script>
+
+    <script>
+        activeNav(document.querySelector(".gallery_button"))
+
+
+        async function displayBannerImageBottom() {
+            try {
+                const profileData = await fetchData('bgdown');
+                const profileImgUrl = profileData[0].secure_url;
+                document.querySelector("#bottom_banner").setAttribute('data-background', profileImgUrl);
+                document.querySelector("#bottom_banner").style.backgroundImage = `url(${profileImgUrl})`;
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayBannerImageBottom()
+
+
+
+        async function displayIndoorImages() {
+            try {
+                const profileData = await fetchData('indoor');
+                const gallery_parent = document.getElementById("gallery_parent");
+
+                
+
+                // Sort profileData based on the created_at property in descending order
+                profileData.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+                let new_html = ''; // Initialize the HTML content variable
+
+                profileData.forEach(element => {
+                    new_html += `
+                    <div class="col-md-4 gallery-masonry-wrapper single-item indoor">
+                        <a href="${element.secure_url}" title="" class="gallery-masonry-item-img-link img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="${element.secure_url}" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-masonry-item-img"></div>
+                                <div class="gallery-masonry-item-content">
+                                    <div class="gallery-masonry-item-category">Indoor</div>
+                                    <h4 class="gallery-masonry-item-title">Indoor Photography</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    `;
+                });
+
+                gallery_parent.innerHTML += new_html; // Set the HTML content
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayIndoorImages()
+        
+        
+        
+        async function displayOutdoorImages() {
+            try {
+                const profileData = await fetchData('outdoor');
+                const gallery_parent = document.getElementById("gallery_parent");
+
+
+
+                // Sort profileData based on the created_at property in descending order
+                profileData.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+                let new_html = ''; // Initialize the HTML content variable
+
+                profileData.forEach(element => {
+                    new_html += `
+                    <div class="col-md-4 gallery-masonry-wrapper single-item outdoor">
+                        <a href="${element.secure_url}" title="" class="gallery-masonry-item-img-link img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="${element.secure_url}" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-masonry-item-img"></div>
+                                <div class="gallery-masonry-item-content">
+                                    <div class="gallery-masonry-item-category">Outdoor</div>
+                                    <h4 class="gallery-masonry-item-title">Outdoor Photography</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    `;
+                });
+
+                gallery_parent.innerHTML += new_html; // Set the HTML content
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayOutdoorImages()
+        
+        
+        
+        async function displayBeautyImages() {
+            try {
+                const profileData = await fetchData('beauty');
+                const gallery_parent = document.getElementById("gallery_parent");
+
+
+
+                // Sort profileData based on the created_at property in descending order
+                profileData.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+                let new_html = ''; // Initialize the HTML content variable
+
+                profileData.forEach(element => {
+                    new_html += `
+                    <div class="col-md-4 gallery-masonry-wrapper single-item beauty">
+                        <a href="${element.secure_url}" title="" class="gallery-masonry-item-img-link img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="${element.secure_url}" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-masonry-item-img"></div>
+                                <div class="gallery-masonry-item-content">
+                                    <div class="gallery-masonry-item-category">Beauty</div>
+                                    <h4 class="gallery-masonry-item-title">Beauty Photography</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    `;
+                });
+
+                gallery_parent.innerHTML += new_html; // Set the HTML content
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayBeautyImages()
+       
+       
+       
+        async function displayGlamourImages() {
+            try {
+                const profileData = await fetchData('glamor');
+                const gallery_parent = document.getElementById("gallery_parent");
+
+
+
+
+                let new_html = ''; // Initialize the HTML content variable
+
+                profileData.forEach(element => {
+                    new_html += `
+                    <div class="col-md-4 gallery-masonry-wrapper single-item glamour">
+                        <a href="${element.secure_url}" title="" class="gallery-masonry-item-img-link img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="${element.secure_url}" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-masonry-item-img"></div>
+                                <div class="gallery-masonry-item-content">
+                                    <div class="gallery-masonry-item-category">Glamour</div>
+                                    <h4 class="gallery-masonry-item-title">Glamour Photography</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    `;
+                });
+
+                gallery_parent.innerHTML += new_html; // Set the HTML content
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayGlamourImages()
+       
+
+
+
+
+
+        async function displayEditorialImages() {
+            try {
+                const profileData = await fetchData('editorial');
+                const gallery_parent = document.getElementById("gallery_parent");
+
+
+
+                // Sort profileData based on the created_at property in descending order
+                profileData.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+                let new_html = ''; // Initialize the HTML content variable
+
+                profileData.forEach(element => {
+                    new_html += `
+                    <div class="col-md-4 gallery-masonry-wrapper single-item editorial">
+                        <a href="${element.secure_url}" title="" class="gallery-masonry-item-img-link img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="${element.secure_url}" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-masonry-item-img"></div>
+                                <div class="gallery-masonry-item-content">
+                                    <div class="gallery-masonry-item-category">Editorial</div>
+                                    <h4 class="gallery-masonry-item-title">Editorial Photography</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    `;
+                });
+
+                gallery_parent.innerHTML += new_html; // Set the HTML content
+
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
+        }
+
+        displayEditorialImages()
+    </script>
+
+
+
+<script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
     <script src="js/modernizr-2.6.2.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
@@ -171,12 +297,6 @@
     <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/custom.js"></script>
-    
-    <script src="js/script.js"></script>
-
-    <script>
-        activeNav(document.querySelector(".gallery_button"))
-    </script>
 </body>
 
 </html>
