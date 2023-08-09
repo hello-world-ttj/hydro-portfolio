@@ -1,10 +1,11 @@
-const apiUrl = "https://tan-poised-kingfisher.cyclic.app/api/v1";
+const apiUrl = "https://tan-poised-kingfisher.cyclic.app/api/v1/picture?folder=";
 
 
 
 async function fetchData(type) {
     try {
-      const response = await fetch(`${apiUrl}/${type}`);
+      const response = await fetch(`${apiUrl}${type}`);
+      console.log(response)
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

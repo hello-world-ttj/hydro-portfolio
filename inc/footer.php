@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <p>CUSAT, My Tournament</p>
+                                        <p>CUSAT, Ernakulam</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,13 +79,13 @@
             <div class="bottom-footer-text">
                 <div class="row copyright">
                     <div class="col-md-8">
-                        <p class="mb-0">Copyright © 2023 by <a href="#">DuruThemes</a>. All rights reserved.</p>
+                        <p class="mb-0">Copyright © 2023 by <a href="#">Hydro Photography</a>. All rights reserved.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="social-icons">
                             <ul class="list-inline">
                                 <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                <li><a href="#"><i class="ti-twitter"></i></a></li>
+                                <li><a href="#"><i class="ti-instagram"></i></a></li>
                                 <li><a href="#"><i class="ti-linkedin"></i></a></li>
                                 <li><a href="#"><i class="ti-dribbble"></i></a></li>
                             </ul>

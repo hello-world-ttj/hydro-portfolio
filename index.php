@@ -26,10 +26,8 @@
     <?php include './inc/gallery.php' ?>
 
     <!-- Testiominals -->
-    <?php include './inc/testimonial.php' ?>
+    <?php include './inc/testimonials.php' ?>
 
-    <!-- Clients -->
-    <?php include './inc/client.php' ?>
     
     <!-- Footer -->
     <?php include './inc/footer.php' ?>
