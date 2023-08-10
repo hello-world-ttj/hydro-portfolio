@@ -5,7 +5,7 @@
                 <div class="row">
                     <!-- Work together -->
                     <div class="col-md-6 mb-30">
-                        <h5>Need help with professional photography? Let's work together!</h5> <a href="contact.html" class="button-tersiyer">Contact me</a>
+                        <h5>Need help with professional photography? Let's work together!</h5> <a href="contact.php" class="button-tersiyer">Contact me</a>
                     </div>
                 </div>
             </div>
