@@ -40,7 +40,7 @@
                         <div class="contact-link-icon"><img src="img/icons/c2.svg" alt=""></div>
                         <div class="contact-link-content">
                             <div class="contact-link-title">Send us an email</div>
-                            <div class="contact-link-text">hydrophotography@gmail.com</div>
+                            <div class="contact-link-text">rizwan@hydrophotography.in</div>
                         </div>
                     </div>
                     <div class="contact-link">
