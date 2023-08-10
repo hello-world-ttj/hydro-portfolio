@@ -25,7 +25,7 @@
                         </li>
                     </ul>
                     <hr class="border-2">
-                    <div class="about-bottom"> <img src="img/sign.png" alt="" class="image about-signature">
+                    <div class="about-bottom"> <img src="img/sign.png" class="image about-signature" alt="Explore Muhammed Rizwan's sign">
                         <div class="about-name-wrapper">
                             <div class="about-name-dark">Muhammed Rizwan</div>
                             <div class="about-rol">Hydro Photography</div>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-md-5 offset-md-1">
                     <div class="about-img">
-                        <div class="img"> <img id="profile" src="img/about.jpg" class="img-fluid" alt=""> </div>
+                        <div class="img"> <img id="profile" src="img/about.jpg" class="img-fluid" alt="Explore Muhammed Rizwan's personal webiste"> </div>
                     </div>
                 </div>
             </div>

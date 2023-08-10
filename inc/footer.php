@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-md-4 widget-area">
                         <div class="widget clearfix">
-                            <div class="footer-logo"> <img class="img-fluid" src="img/logo.png" alt=""> </div>
+                            <div class="footer-logo"> <img class="img-fluid" src="img/logo.png" alt="Explore Muhammed Rizwan's personal webiste logo"> </div>
                             <div class="widget-text">
                                 <p>Hydro Photography is a off camera flash portrait photography. </p>
                             </div>
@@ -31,10 +31,10 @@
                         <div class="widget clearfix usful-links">
                             <h3 class="widget-title">Quick Links</h3>
                             <ul>
-                                <li><a href="about.html">Home</a></li>
-                                <li><a href="services.html">About</a></li>
-                                <li><a href="works.html">Services</a></li>
-                                <li><a href="blog.html">Contact</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About</a></li>
+                                <li><a href="service.php">Services</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -84,10 +84,10 @@
                     <div class="col-md-4">
                         <div class="social-icons">
                             <ul class="list-inline">
-                                <li><a target="_blank" href="https://www.threads.net/@hydro.photography"><i class="fa-brands fa-threads"></i></a></li>
-                                <li><a target="_blank" href="https://wa.me/9961204347"><i class="fa-brands fa-whatsapp"></i></a></li>
-                                <li><a target="_blank" href="https://instagram.com/hydro.photography_?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a target="_blank" href="https://youtube.com/@hydrophotography1696"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a target="_blank" href="https://www.threads.net/@hydro.photography" title="Explore hydro photography threads"><i class="fa-brands fa-threads"></i></a></li>
+                                <li><a target="_blank" href="https://wa.me/9961204347" title="Explore hydro photography whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a target="_blank" href="https://instagram.com/hydro.photography_?igshid=MzRlODBiNWFlZA==" title="Explore hydro photography instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a target="_blank" href="https://youtube.com/@hydrophotography1696" title="Explore hydro photography youtube"><i class="fa-brands fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
