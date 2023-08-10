@@ -54,7 +54,7 @@
                 <div class="col-md-5 offset-md-2 animate-box" data-animate-effect="fadeInUp">
                     <div class="form-box">
                         <h5>Get in touch</h5>
-                        <form method="post" class="contact__form" action="https://duruthemes.com/demo/html/phoxel/main-demo-light/mail.php">
+                        <div>
                             <!-- Form message -->
                             <div class="row">
                                 <div class="col-12">
@@ -64,27 +64,27 @@
                                 </div>
                             </div>
                             <!-- Form elements -->
-                            <div class="row">
+                            <form id="message_form" class="row">
                                 <div class="col-md-12 form-group">
-                                    <input name="name" type="text" placeholder="Your Name *" required> 
+                                    <input id="nameInput" name="name" type="text" placeholder="Your Name *" required> 
                                 </div>
-                                <div class="col-md-6 form-group">
+                                <div class="col-md-12 form-group">
                                     <input name="email" type="email" placeholder="Your Email *" required> 
                                 </div>
-                                <div class="col-md-6 form-group">
+                                <div class="col-md-12 form-group">
                                     <input name="phone" type="text" placeholder="Your Number *" required> 
                                 </div>
                                 <div class="col-md-12 form-group">
                                     <input name="subject" type="text" placeholder="Subject *" required> 
                                 </div>
                                 <div class="col-md-12 form-group">
-                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                                    <textarea id="messageInput" name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
                                 </div>
                                 <div class="col-md-12">
-                                    <input name="submit" type="submit"  value="Send Message">
+                                    <button name="submit" type="submit">Send Message</button>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </d>
                         
                     </div>
                 </div>
@@ -184,6 +184,17 @@
 
     <script src="js/script.js"></script>
     <script src="js/index.js"></script>
+
+
+    <script>
+        form = document.getElementById("message_form")
+        form.addEventListener("submit", function(){
+            const name = document.getElementById("nameInput").value;
+            const message = document.getElementById("messageInput").value;
+            let waUrl = `https://wa.me/9961204347?text=Hello%20I%20am%20${name}. %20${message}`;
+            window.open(waUrl, '_blank');
+        })
+    </script>
 
     <script>
         activeNav(document.querySelector(".contact_button"))

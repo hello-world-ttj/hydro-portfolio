@@ -84,10 +84,10 @@
                     <div class="col-md-4">
                         <div class="social-icons">
                             <ul class="list-inline">
-                                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                <li><a href="#"><i class="ti-instagram"></i></a></li>
-                                <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                <li><a href="#"><i class="ti-dribbble"></i></a></li>
+                                <li><a target="_blank" href="https://www.threads.net/@hydro.photography"><i class="fa-brands fa-threads"></i></a></li>
+                                <li><a target="_blank" href="https://wa.me/9961204347"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a target="_blank" href="https://instagram.com/hydro.photography_?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a target="_blank" href="https://youtube.com/@hydrophotography1696"><i class="fa-brands fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -95,3 +95,7 @@
             </div>
         </div>
     </footer>
+
+
+
+    
