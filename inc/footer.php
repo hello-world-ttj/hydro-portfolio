@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <p>hydrophotography@gmail.com</p>
+                                        <p>rizwan@hydrophotography.in</p>
                                     </div>
                                 </div>
                             </div>
