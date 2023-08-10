@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <h1>Gallery 01</h1>
+                    <h1>Gallery </h1>
                     <hr class="border-1">
                     <p>Welcome to our Photography Gallery, a visual journey capturing moments, stories, and emotions through the lens of our talented photographer. Each image here has been carefully curated to showcase the beauty and artistry that photography brings to life.</p>
                 </div>
