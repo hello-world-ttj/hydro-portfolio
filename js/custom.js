@@ -183,7 +183,7 @@ $(function() {
     
     // Clients owlCarousel
     $('.clients .owl-carousel').owlCarousel({
-        loop: true
+        loop: false
         , margin: 10
         , mouseDrag: true
         , autoplay: false

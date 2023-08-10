@@ -2673,7 +2673,7 @@ button.mfp-arrow {
 }
 /* first footer */
 .first-footer {
-  padding: 90px 0 0 0;
+  padding: 20px 0 0 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .first-footer h3 {
@@ -3327,4 +3327,19 @@ button.mfp-arrow {
 [data-overlay-darkgray="10"]:before,
 [data-overlay-light="10"]:before {
   opacity: 1;
+}
+
+
+
+.clients .owl-item{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients .owl-item img{
+    width: 100px;
+}
+.clients .owl-carousel .owl-stage{
+  margin: auto;
 }

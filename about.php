@@ -74,7 +74,7 @@
                         <div class="about-info-img mb-60">
                             <div class="img"> <img id="about_two" src="img/about2.jpg" class="img-fluid" alt=""> </div>
                         </div>
-                        <h2 class="section-title">My only mission: Capture captivating moments</h2>
+                        <h2 class="section-title">Artistic Inspiration: Transforming Portraits with Captivating Shades</h2>
                         <p>As an artist, I have always been inspired by interesting portrait drawings with striking shades, which influence how I shoot today. Regardless of whether it's ethereal studio-based portraiture or high-energy on-location work, this style runs through everything I do, giving either result added visual appeal and personality.</p>
                     </div>
                     <div class="col-md-6 offset-md-1 pt-60">
