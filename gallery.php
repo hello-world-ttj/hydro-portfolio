@@ -22,7 +22,8 @@
             </div>
         </div>
     </section>
-    <!--  Gallery 01 -->
+
+    <!-- Gallery 01 -->
     <section class="section-padding bg-blck">
         <div class="container">
             <div class="row">
@@ -32,29 +33,25 @@
                         <li data-filter=".indoor">Indoor</li>
                         <li data-filter=".outdoor">Outdoor</li>
                         <li data-filter=".beauty">Beauty</li>
-                        <li data-filter=".glamour">Galamour</li>
+                        <li data-filter=".glamour">Glamour</li>
                         <li data-filter=".editorial">Editorial</li>
                     </ul>
                 </div>
             </div>
-            <div id="gallery_parent" class="row gallery-items">
-                    
+            <div class="row gallery-items" id="gallery_parent">
+                <!-- Gallery items will be dynamically added here -->
             </div>
         </div>   
     </section>
-
     
     <!-- Testimonials -->
     <?php include './inc/testimonials.php' ?>
     <!-- Footer -->
     <?php include './inc/footer.php' ?>
 
-    <!-- jQuery -->
+    <!-- Load your custom script first -->
     <script src="js/index.js"></script>
-
-    
     <script src="js/script.js"></script>
-
     <script>
         activeNav(document.querySelector(".gallery_button"))
 
@@ -71,9 +68,6 @@
                 console.error('Error:', error);
             }
         }
-
-        displayBannerImageBottom()
-
 
 
         async function displayIndoorImages() {
@@ -113,10 +107,8 @@
             }
         }
 
-        displayIndoorImages()
-        
-        
-        
+
+
         async function displayOutdoorImages() {
             try {
                 const profileData = await fetchData('outdoor');
@@ -154,10 +146,12 @@
             }
         }
 
-        displayOutdoorImages()
-        
-        
-        
+
+
+
+
+
+
         async function displayBeautyImages() {
             try {
                 const profileData = await fetchData('beauty');
@@ -195,13 +189,14 @@
             }
         }
 
-        displayBeautyImages()
-       
-       
+
+
+
+     
        
         async function displayGlamourImages() {
             try {
-                const profileData = await fetchData('glamor');
+                const profileData = await fetchData('glamour');
                 const gallery_parent = document.getElementById("gallery_parent");
 
 
@@ -233,10 +228,6 @@
                 console.error('Error:', error);
             }
         }
-
-        displayGlamourImages()
-       
-
 
 
 
@@ -278,25 +269,71 @@
             }
         }
 
-        displayEditorialImages()
+
+
+        // Wrap your async functions in a Promise
+        function executeCustomScript() {
+            return new Promise(async (resolve, reject) => {
+                try {
+                    await displayBannerImageBottom();
+                    await displayIndoorImages();
+                    await displayOutdoorImages();
+                    await displayBeautyImages();
+                    await displayGlamourImages();
+                    await displayEditorialImages();
+                    resolve();
+                } catch (error) {
+                    reject(error);
+                }
+            });
+        }
+
+        // Execute your custom script before loading other scripts
+        executeCustomScript()
+            .then(() => {
+                // Now load the rest of the scripts
+                const scriptElements = [
+                    "js/jquery-3.6.3.min.js",
+                    "js/jquery-migrate-3.0.0.min.js",
+                    "js/modernizr-2.6.2.min.js",
+                    "js/imagesloaded.pkgd.min.js",
+                    "js/jquery.isotope.v3.0.2.js",
+                    "js/popper.min.js",
+                    "js/bootstrap.min.js",
+                    "js/scrollIt.min.js",
+                    "js/jquery.waypoints.min.js",
+                    "js/owl.carousel.min.js",
+                    "js/jquery.stellar.min.js",
+                    "js/jquery.magnific-popup.js",
+                    "js/YouTubePopUp.js",
+                    "js/custom.js"
+                    // Add other script paths here
+                ];
+
+                function loadScript(src) {
+                    return new Promise((resolve, reject) => {
+                        const script = document.createElement("script");
+                        script.src = src;
+                        script.onload = resolve;
+                        script.onerror = reject;
+                        document.body.appendChild(script);
+                    });
+                }
+
+                // Load scripts one by one sequentially
+                function loadScriptsSequentially(index) {
+                    if (index < scriptElements.length) {
+                        loadScript(scriptElements[index])
+                            .then(() => loadScriptsSequentially(index + 1))
+                            .catch(error => console.error("Script loading error:", error));
+                    }
+                }
+
+                // Start loading scripts
+                loadScriptsSequentially(0);
+            })
+            .catch(error => console.error("Custom script execution error:", error));
     </script>
-
-
-
-<script src="js/jquery-3.6.3.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.min.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.isotope.v3.0.2.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrollIt.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/YouTubePopUp.js"></script>
-    <script src="js/custom.js"></script>
 </body>
 
 </html>

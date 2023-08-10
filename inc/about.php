@@ -45,17 +45,17 @@
 
     <script>
         async function displayProfileImage() {
-        try {
-            const profileData = await fetchData('profile');
-            const profileImgUrl = profileData[0].secure_url;
-            console.log("Profile Image URL:", profileImgUrl);
-            document.querySelector("#profile").src = profileImgUrl;
-        } catch (error) {
-            // Handle any errors that occurred during fetchData or image display
-            console.error('Error:', error);
+            try {
+                const profileData = await fetchData('profile');
+                const profileImgUrl = profileData[0].secure_url;
+                console.log("Profile Image URL:", profileImgUrl);
+                document.querySelector("#profile").src = profileImgUrl;
+            } catch (error) {
+                // Handle any errors that occurred during fetchData or image display
+                console.error('Error:', error);
+            }
         }
-        }
-
         displayProfileImage()
+
 
     </script>
